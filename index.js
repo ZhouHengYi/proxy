@@ -24,4 +24,4 @@ let server = http.createServer(function(req, res) {
     }
 })
 console.log('listening on proxy-port 3080')
-server.listen(3080)
+server.listen(80)
